@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.LumaOrderTest" time="23.756" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="lib/chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Projects\java-selenium-auto\target\test-classes;C:\Projects\java-selenium-auto\target\classes;C:\Users\Hovo\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Hovo\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Hovo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Hovo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Hovo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Hovo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Hovo\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Hovo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Hovo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Hovo\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Hovo\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Hovo\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Hovo\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Hovo\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Hovo\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Hovo\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Hovo\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Hovo\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Hovo\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Hovo\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Hovo\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Hovo\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Hovo\.m2\repository\net\lightbody\bmp\browsermob-core\2.1.5\browsermob-core-2.1.5.jar;C:\Users\Hovo\.m2\repository\net\lightbody\bmp\littleproxy\1.1.0-beta-bmp-17\littleproxy-1.1.0-beta-bmp-17.jar;C:\Users\Hovo\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Hovo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.9\jackson-core-2.8.9.jar;C:\Users\Hovo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.9\jackson-databind-2.8.9.jar;C:\Users\Hovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.9\jackson-annotations-2.8.9.jar;C:\Users\Hovo\.m2\repository\dnsjava\dnsjava\2.1.8\dnsjava-2.1.8.jar;C:\Users\Hovo\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Hovo\.m2\repository\com\jcraft\jzlib\1.1.3\jzlib-1.1.3.jar;C:\Users\Hovo\.m2\repository\io\netty\netty-all\4.0.51.Final\netty-all-4.0.51.Final.jar;C:\Users\Hovo\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.58\bcprov-jdk15on-1.58.jar;C:\Users\Hovo\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.58\bcpkix-jdk15on-1.58.jar;C:\Users\Hovo\.m2\repository\net\lightbody\bmp\mitm\2.1.5\mitm-2.1.5.jar;C:\Users\Hovo\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Hovo\.m2\repository\ch\qos\logback\logback-classic\1.2.6\logback-classic-1.2.6.jar;C:\Users\Hovo\.m2\repository\ch\qos\logback\logback-core\1.2.6\logback-core-1.2.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Yerevan"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Hovo\AppData\Local\Temp\surefire4198535656723126547\surefirebooter-20240413205026188_3.jar C:\Users\Hovo\AppData\Local\Temp\surefire4198535656723126547 2024-04-13T20-50-24_847-jvmRun1 surefire-20240413205026188_1tmp surefire_0-20240413205026188_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Projects\java-selenium-auto\target\test-classes;C:\Projects\java-selenium-auto\target\classes;C:\Users\Hovo\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Hovo\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Hovo\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Hovo\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Hovo\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Hovo\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Hovo\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Hovo\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Hovo\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Hovo\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Hovo\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Hovo\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Hovo\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Hovo\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Hovo\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Hovo\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Hovo\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Hovo\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Hovo\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Hovo\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Hovo\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Hovo\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Hovo\.m2\repository\net\lightbody\bmp\browsermob-core\2.1.5\browsermob-core-2.1.5.jar;C:\Users\Hovo\.m2\repository\net\lightbody\bmp\littleproxy\1.1.0-beta-bmp-17\littleproxy-1.1.0-beta-bmp-17.jar;C:\Users\Hovo\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Hovo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.9\jackson-core-2.8.9.jar;C:\Users\Hovo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.9\jackson-databind-2.8.9.jar;C:\Users\Hovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.9\jackson-annotations-2.8.9.jar;C:\Users\Hovo\.m2\repository\dnsjava\dnsjava\2.1.8\dnsjava-2.1.8.jar;C:\Users\Hovo\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Hovo\.m2\repository\com\jcraft\jzlib\1.1.3\jzlib-1.1.3.jar;C:\Users\Hovo\.m2\repository\io\netty\netty-all\4.0.51.Final\netty-all-4.0.51.Final.jar;C:\Users\Hovo\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.58\bcprov-jdk15on-1.58.jar;C:\Users\Hovo\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.58\bcpkix-jdk15on-1.58.jar;C:\Users\Hovo\.m2\repository\net\lightbody\bmp\mitm\2.1.5\mitm-2.1.5.jar;C:\Users\Hovo\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Hovo\.m2\repository\ch\qos\logback\logback-classic\1.2.6\logback-classic-1.2.6.jar;C:\Users\Hovo\.m2\repository\ch\qos\logback\logback-core\1.2.6\logback-core-1.2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Hovo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Projects\java-selenium-auto"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Hovo\AppData\Local\Temp\surefire4198535656723126547\surefirebooter-20240413205026188_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
+    <property name="user.name" value="Hovo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.nio.ch.bugLevel" value=""/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Hovo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Hovo\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="C:\Projects\java-selenium-auto"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Projects\PMM\pytest-pmm-autotest\drivers;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Projects\apache-maven-3.9.0\bin;C:\Program Files\Java\jdk-17.0.1\bin;C:\Users\Hovo\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Windows PowerShell;C:\sqlite;c:\ediabas\bin;C:\Ruby32-x64\bin;C:\Users\Hovo\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Hovo\AppData\Local\Programs\Python\Python39\;C:\Users\Hovo\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\bin;;C:\Program Files\JetBrains\RubyMine 2022.3.3\bin;;C:\Users\Hovo\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="basicOrderTest" classname="tests.LumaOrderTest" time="21.93">
+    <system-out><![CDATA[Previous order data file deleted successfully.
+20:50:36.836 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+20:50:36.841 [main] DEBUG io.netty.handler.ssl.OpenSsl - netty-tcnative not in the classpath; OpenSslEngine will be unavailable.
+20:50:36.854 [main] DEBUG net.lightbody.bmp.mitm.manager.ImpersonatingMitmManager - Allowed ciphers for proxy connections to upstream servers (some ciphers may not be available): [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+20:50:36.856 [main] DEBUG net.lightbody.bmp.mitm.manager.ImpersonatingMitmManager - Allowed ciphers for client connections to proxy (some ciphers may not be available): [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+20:50:36.862 [main] DEBUG org.littleshoot.proxy.impl.ServerGroup - UDT provider not found on classpath. UDT transport will not be available.
+20:50:36.875 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+20:50:36.876 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+20:50:36.876 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 17
+20:50:36.877 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+20:50:36.878 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+20:50:36.878 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+20:50:36.881 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable
+java.lang.reflect.InaccessibleObjectException: Unable to make private java.nio.DirectByteBuffer(long,int) accessible: module java.base does not "opens java.nio" to unnamed module @954b04f
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+	at java.base/java.lang.reflect.Constructor.checkCanSetAccessible(Constructor.java:188)
+	at java.base/java.lang.reflect.Constructor.setAccessible(Constructor.java:181)
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:204)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:198)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:197)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:74)
+	at io.netty.util.Signal.<clinit>(Signal.java:31)
+	at io.netty.util.concurrent.DefaultPromise.<clinit>(DefaultPromise.java:43)
+	at io.netty.util.concurrent.GlobalEventExecutor.<init>(GlobalEventExecutor.java:44)
+	at io.netty.util.concurrent.GlobalEventExecutor.<clinit>(GlobalEventExecutor.java:41)
+	at org.littleshoot.proxy.impl.DefaultHttpProxyServer.<init>(DefaultHttpProxyServer.java:139)
+	at org.littleshoot.proxy.impl.DefaultHttpProxyServer.<init>(DefaultHttpProxyServer.java:69)
+	at org.littleshoot.proxy.impl.DefaultHttpProxyServer$DefaultHttpProxyServerBootstrap.build(DefaultHttpProxyServer.java:899)
+	at org.littleshoot.proxy.impl.DefaultHttpProxyServer$DefaultHttpProxyServerBootstrap.start(DefaultHttpProxyServer.java:877)
+	at net.lightbody.bmp.BrowserMobProxyServer.start(BrowserMobProxyServer.java:370)
+	at net.lightbody.bmp.BrowserMobProxyServer.start(BrowserMobProxyServer.java:380)
+	at tests.LumaOrderTest.proceedToCheckout(LumaOrderTest.java:139)
+	at tests.LumaOrderTest.basicOrderTest(LumaOrderTest.java:81)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:111)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+20:50:36.882 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: unavailable true
+java.lang.reflect.InaccessibleObjectException: Unable to make static boolean java.nio.Bits.unaligned() accessible: module java.base does not "opens java.nio" to unnamed module @954b04f
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:199)
+	at java.base/java.lang.reflect.Method.setAccessible(Method.java:193)
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:252)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:245)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:197)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:74)
+	at io.netty.util.Signal.<clinit>(Signal.java:31)
+	at io.netty.util.concurrent.DefaultPromise.<clinit>(DefaultPromise.java:43)
+	at io.netty.util.concurrent.GlobalEventExecutor.<init>(GlobalEventExecutor.java:44)
+	at io.netty.util.concurrent.GlobalEventExecutor.<clinit>(GlobalEventExecutor.java:41)
+	at org.littleshoot.proxy.impl.DefaultHttpProxyServer.<init>(DefaultHttpProxyServer.java:139)
+	at org.littleshoot.proxy.impl.DefaultHttpProxyServer.<init>(DefaultHttpProxyServer.java:69)
+	at org.littleshoot.proxy.impl.DefaultHttpProxyServer$DefaultHttpProxyServerBootstrap.build(DefaultHttpProxyServer.java:899)
+	at org.littleshoot.proxy.impl.DefaultHttpProxyServer$DefaultHttpProxyServerBootstrap.start(DefaultHttpProxyServer.java:877)
+	at net.lightbody.bmp.BrowserMobProxyServer.start(BrowserMobProxyServer.java:370)
+	at net.lightbody.bmp.BrowserMobProxyServer.start(BrowserMobProxyServer.java:380)
+	at tests.LumaOrderTest.proceedToCheckout(LumaOrderTest.java:139)
+	at tests.LumaOrderTest.basicOrderTest(LumaOrderTest.java:81)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:111)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+20:50:36.883 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @954b04f
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:560)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:295)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:286)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:197)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:74)
+	at io.netty.util.Signal.<clinit>(Signal.java:31)
+	at io.netty.util.concurrent.DefaultPromise.<clinit>(DefaultPromise.java:43)
+	at io.netty.util.concurrent.GlobalEventExecutor.<init>(GlobalEventExecutor.java:44)
+	at io.netty.util.concurrent.GlobalEventExecutor.<clinit>(GlobalEventExecutor.java:41)
+	at org.littleshoot.proxy.impl.DefaultHttpProxyServer.<init>(DefaultHttpProxyServer.java:139)
+	at org.littleshoot.proxy.impl.DefaultHttpProxyServer.<init>(DefaultHttpProxyServer.java:69)
+	at org.littleshoot.proxy.impl.DefaultHttpProxyServer$DefaultHttpProxyServerBootstrap.build(DefaultHttpProxyServer.java:899)
+	at org.littleshoot.proxy.impl.DefaultHttpProxyServer$DefaultHttpProxyServerBootstrap.start(DefaultHttpProxyServer.java:877)
+	at net.lightbody.bmp.BrowserMobProxyServer.start(BrowserMobProxyServer.java:370)
+	at net.lightbody.bmp.BrowserMobProxyServer.start(BrowserMobProxyServer.java:380)
+	at tests.LumaOrderTest.proceedToCheckout(LumaOrderTest.java:139)
+	at tests.LumaOrderTest.basicOrderTest(LumaOrderTest.java:81)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:111)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+20:50:36.883 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+20:50:36.883 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+20:50:36.884 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 8434745344 bytes (maybe)
+20:50:36.884 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\Hovo\AppData\Local\Temp (java.io.tmpdir)
+20:50:36.884 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+20:50:36.885 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+20:50:36.885 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+20:50:36.885 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+20:50:36.885 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+20:50:36.889 [main] INFO org.littleshoot.proxy.impl.DefaultHttpProxyServer - Starting proxy at address: 0.0.0.0/0.0.0.0:0
+20:50:36.890 [main] DEBUG org.littleshoot.proxy.impl.ServerGroup - Initializing thread pools for TCP with 2 acceptor threads, 8 incoming worker threads, and 8 outgoing worker threads
+20:50:36.892 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 32
+20:50:36.898 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+20:50:36.898 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+20:50:36.903 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+20:50:36.951 [main] INFO org.littleshoot.proxy.impl.DefaultHttpProxyServer - Proxy listening with TCP transport
+20:50:36.961 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+20:50:36.961 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+20:50:36.983 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+20:50:36.983 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+20:50:36.983 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+20:50:36.992 [main] DEBUG io.netty.util.NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+20:50:36.992 [main] DEBUG io.netty.util.NetUtil - \proc\sys\net\core\somaxconn: 200 (non-existent)
+20:50:37.001 [main] INFO org.littleshoot.proxy.impl.DefaultHttpProxyServer - Proxy started at address: /[0:0:0:0:0:0:0:0]:49944
+Failed to validate request data.
+20:50:38.821 [main] INFO org.littleshoot.proxy.impl.DefaultHttpProxyServer - Shutting down proxy server gracefully
+20:50:38.821 [main] INFO org.littleshoot.proxy.impl.DefaultHttpProxyServer - Closing all channels (graceful)
+20:50:38.824 [main] DEBUG org.littleshoot.proxy.impl.ServerGroup - Proxy server unregistered from ServerGroup. No proxy servers remain registered, so shutting down ServerGroup.
+20:50:38.824 [main] INFO org.littleshoot.proxy.impl.ServerGroup - Shutting down server group event loops (graceful)
+20:50:41.050 [main] DEBUG org.littleshoot.proxy.impl.ServerGroup - Done shutting down server group
+20:50:41.051 [main] INFO org.littleshoot.proxy.impl.DefaultHttpProxyServer - Done shutting down proxy server
+Successfully filled the checkout info
+Successfully placed an order
+Successfully wrote the order ID into file
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824}) on port 30480
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 13, 2024 8:50:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
